@@ -1,2 +1,2 @@
 # spam-email-detector
-it is a spam email detector when you give it a mail in 1 line it will tell if it is spam or not, i used sckit learn logistic regression for this
+it is a spam email detector when you give it a mail in 1 line it will tell if it is spam or not, i used sckit learn logistic regression for this. This is not just the model so the model will be trained again and again which will decrease speed you can have only the model by removing other things. This also have a csv file of data so this for people who are new to these things and want to understand better.
