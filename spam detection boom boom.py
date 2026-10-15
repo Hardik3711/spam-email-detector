@@ -6,7 +6,7 @@ import os
 os.system("cls")
 from sklearn.linear_model import LogisticRegression
 
-data = pd.read_csv(r"c:\Users\LENOVO\Downloads\spam_dataset_v2.csv")
+data = pd.read_csv("spam_dataset_v2.csv")
 X_train, X_test, y_train, y_test = train_test_split(data['email'], data['label'], test_size=0.2, random_state=42)
 numconverter = TfidfVectorizer(stop_words="english")
 X_train_num = numconverter.fit_transform(X_train)
